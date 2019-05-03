@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"sass/styles.scss"
+	],
+	"sourcesContent": [
+		"\r\n.card{\r\n    width: 25%;\r\n    height: 25%;\r\n    margin: 5% 20%;   \r\n    background-size: cover;\r\n    animation: fadein 3s;\r\n    background-position: center;\r\n    background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80');\r\n}\r\n\r\n.card0{\r\n  @extend .card;\r\n}\r\n\r\n.card1{\r\n  @extend .card;\r\n  animation: bounceIn 3s;\r\n}\r\n\r\n.card2{\r\n    @extend .card;\r\n    animation: bounceIn 3s;\r\n}\r\n@keyframes move_eye { from { margin-left: -20%; } to { margin-left: 50%; }  }\r\n\r\n@keyframes fadein {\r\n    from { opacity: 0; }\r\n    to   { opacity: 1; }\r\n}\r\n\r\n@keyframes bounceIn {\r\n    0% {\r\n      transform: scale(0.1);\r\n      opacity: 0;\r\n    }\r\n    60% {\r\n      transform: scale(1.2);\r\n      opacity: 1;\r\n    }\r\n    100% {\r\n      transform: scale(1);\r\n    }\r\n}\r\n\r\n"
+	],
+	"names": [],
+	"mappings": ";AACA,AAAA,KAAK,EAUL,MAAM,EAIN,MAAM,EAKN,MAAM,CAnBD;EACD,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,MAAM,EAAE,MAAM;EACd,eAAe,EAAE,KAAK;EACtB,SAAS,EAAE,SAAS;EACpB,mBAAmB,EAAE,MAAM;EAC3B,gBAAgB,EAAE,4IAA4I;CACjK;;;AAMD,AAAA,MAAM,CAAA;EAEJ,SAAS,EAAE,WAAW;CACvB;;;AAED,AAAA,MAAM,CAAA;EAEF,SAAS,EAAE,WAAW;CACzB;;AACD,UAAU,CAAV,QAAU;EAAY,IAAI;IAAG,WAAW,EAAE,IAAI;;EAAI,EAAE;IAAG,WAAW,EAAE,GAAG;;;;AAEvE,UAAU,CAAV,MAAU;EACN,IAAI;IAAG,OAAO,EAAE,CAAC;;EACjB,EAAE;IAAK,OAAO,EAAE,CAAC;;;;AAGrB,UAAU,CAAV,QAAU;EACN,EAAE;IACA,SAAS,EAAE,UAAU;IACrB,OAAO,EAAE,CAAC;;EAEZ,GAAG;IACD,SAAS,EAAE,UAAU;IACrB,OAAO,EAAE,CAAC;;EAEZ,IAAI;IACF,SAAS,EAAE,QAAQ"
+}
