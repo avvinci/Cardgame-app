@@ -39,19 +39,32 @@
 .card0:hover  {
   transform-style: preserve-3d;
  
-  perspective: 1000px;
-  transition: transform 0.6s;
-  transform: rotateY(180deg);
+  transition: transform 3s;
+  
+  transform: rotateY(1080deg);
 }
+
+
 .card1{
-  animation: bounceIn 3s;
+  animation: bounceIn 2s;
   animation-timing-function: ease-in-out;
+
+}
+
+.card1:hover  {
+  transition: transform 1s;
+  transform: translate(20px,20px) ;
 }
 
 .card2{
-    animation: bounceIn 3s;
+    animation: bounceIn 2s;
 }
 
+.card2:hover  {
+  transition: transform 1s;
+  /* transform: skewX(-20px); */
+
+}
 
 @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 50%; }  }
 
